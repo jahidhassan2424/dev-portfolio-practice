@@ -290,6 +290,9 @@ body{
 .universal-btn-changeable:hover{
     transform: rotate(5deg);
 }
+.universal-btn-header:hover{
+    transform: rotate(3deg);
+}
 
 .no:hover{
     font-size: 0;
