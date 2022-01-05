@@ -57,12 +57,12 @@ body{
 .appostop:hover{
     transform: rotate(900deg);
 }
-#a-dreamer{
+.a-dreamer{
     position: relative;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
-#a-dreamer:hover{
-    transform: rotate(5deg);
+.a-dreamer:hover{
+    transform: rotate(3deg);
 }
 
 .welcome-paragraph{
