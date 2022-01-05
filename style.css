@@ -312,6 +312,7 @@ body{
     transform: rotate(3deg);
 }
 
+
 .no:hover{
     font-size: 0;
     content: attr(data-hover-force);
@@ -319,6 +320,7 @@ body{
 .no:hover::after{
     content: attr(data-hover-force2);
     font-size: 15px;
+    
 }
 .real-button{
     box-shadow: 5px 5px 10px grey;
