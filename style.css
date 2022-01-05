@@ -111,7 +111,11 @@ body{
 .dream-big{
     display: flex;
     margin-bottom: 200px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
+
 .dream-big img{
     width:50%;
 }
@@ -138,6 +142,11 @@ body{
 .experience-item{
     display: flex;
     
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .experience h1{
     font-size: 30px;
