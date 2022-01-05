@@ -194,6 +194,10 @@ body{
     margin-bottom: 100px;
     
 }
+.experience-btn{
+    width: 300px;
+    text-align: center;
+}
 .back-to-top-btn-link{
     text-decoration: none;
     font-size: 15px;
@@ -275,7 +279,7 @@ body{
 }
 .no{
     text-decoration: none;
-    
+    width: 200px;
     font-size: 15px;
     border: 1px solid;
     padding: 10px 30px;
@@ -297,7 +301,7 @@ body{
 }
 
 .universal-btn-changeable:hover{
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 .universal-btn-header{
     transition: all 300ms;
