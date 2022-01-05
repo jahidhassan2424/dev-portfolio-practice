@@ -1,0 +1,310 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.top-banner img{
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+}
+
+#welcome-text{
+    padding: 50px;
+}
+#welcome-text h1{
+    font-size: 50px;
+}
+#welcome-text p{
+    font-size: 20px;
+}
+#text-w:hover{
+    color: blue;
+}
+#text-jahid{
+    color: orange;
+}
+.jahid-portfolio{
+    display: flex;
+    
+}
+.jahid-portfolio-jahid{
+    display: flex;
+    color: orange;
+    transition: all 200ms linear;
+}
+.jj{
+    position: relative;
+    
+}
+
+.jj:hover{
+    top: -20px;
+
+}
+
+.appostop{
+    position: relative;
+    transition: all 2s ;
+
+}
+.appostop:hover{
+    transform: rotate(900deg);
+}
+#a-dreamer{
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+#a-dreamer:hover{
+    transform: rotate(5deg);
+}
+
+.welcome-paragraph{
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(231, 121, 121), orange);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.exp{
+    margin-bottom: 100px;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+#dream-big-hover{
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+.universal-btn-special{
+    transition: all 300ms;
+}
+
+
+
+
+
+
+.dream-big{
+    display: flex;
+    margin-bottom: 200px;
+}
+.dream-big img{
+    width:50%;
+}
+.dream-big-text{
+    padding: 50px;
+}
+.dream-big-text h1{
+    font-size: 50px;
+      
+}
+.dream-big-text h3{
+    font-size: 25px;
+      
+}
+.downlnoad-resume{
+    text-decoration: none;
+    border:1px solid;
+    padding:10px;
+    background-image: linear-gradient(orange,rgb(184, 72, 72));
+    color:white;
+    font-weight: 700;
+    border-radius:5px;
+}
+.experience-item{
+    display: flex;
+    
+}
+.experience h1{
+    font-size: 30px;
+}
+.frontAndJunior{
+    
+    margin: 0 5%;
+    padding: 10px;
+    box-shadow: 10px 20px 50px grey;
+    margin-bottom: 150px;
+    border-left: 10px solid;
+    border-radius: 10px;
+   
+}
+.frontend-developer{
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+
+}
+.junior-developer{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.welcome{
+    display: flex;
+}
+.t-w{
+    transition: 200ms linear;
+}
+.t-w1{
+    transition: 200ms linear;
+}
+.t-w:hover{
+    transform: rotate(60deg);}
+.t-w1:hover{
+    transform: rotate(30deg);
+}
+.nav-button{
+    position: absolute;
+    display: flex;
+    margin-left: 50%;
+    display: flex;
+    transform: translateX(-50%) translateY(-50%);
+    margin-bottom: 100px;
+    
+}
+.back-to-top-btn-link{
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(53, 53, 219),rgb(14, 186, 238));
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+
+}
+
+
+
+.box-item{
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(53, 53, 219),rgb(14, 186, 238));
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+
+    
+
+}
+
+.box-item:hover{
+    
+    font-size: 0;
+    
+}
+.box-item:hover::after{
+    
+    content: attr(date-hover2);
+    font-size: 15px;
+    position: relative;
+    
+}
+.do-you-like{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 50%;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+
+
+#like-my-website{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.yes{
+    text-decoration: none;
+    
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(53, 53, 219),rgb(14, 186, 238));
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    transition: all 300ms;
+    
+}
+.no{
+    text-decoration: none;
+    
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(53, 53, 219),rgb(14, 186, 238));
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+}
+.yes:hover{
+    transform: rotate(10deg);
+}
+.universal-btn:hover{
+    transform: rotate(10deg);
+}
+.universal-btn{
+    transition: all 300ms;
+}
+
+.universal-btn-changeable:hover{
+    transform: rotate(5deg);
+}
+
+.no:hover{
+    font-size: 0;
+    content: attr(data-hover-force);
+}
+.no:hover::after{
+    content: attr(data-hover-force2);
+    font-size: 15px;
+}
+.real-button{
+    box-shadow: 5px 5px 10px grey;
+}
+
+footer{
+    text-align: center;
+    margin-top:200px;
+}
+    
