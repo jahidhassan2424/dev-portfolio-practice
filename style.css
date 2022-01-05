@@ -130,7 +130,7 @@ body{
     text-decoration: none;
     border:1px solid;
     padding:10px;
-    background-image: linear-gradient(orange,rgb(184, 72, 72));
+    background-image: linear-gradient(rgb(231, 121, 121),orange);
     color:white;
     font-weight: 700;
     border-radius:5px;
